@@ -8,9 +8,9 @@ def map(array)
   new
 end
 
-def reduce(array)
+def reduce(array, start = nil)
   count = 0
   while count < array.length
-    
+    new.push(yield(array[count]))
   end
 end
