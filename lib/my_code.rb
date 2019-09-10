@@ -9,5 +9,8 @@ def map(array)
 end
 
 def reduce(array)
-  
+  count = 0
+  while count < array.length
+    
+  end
 end
