@@ -5,5 +5,5 @@ def map(array)
 end
 
 map([1, 2, 3, -9]) {
-  array2 = array.map{|n| n * -1}
+  |n| n * -1
 }
