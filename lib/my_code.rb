@@ -1,4 +1,4 @@
-def map
+def map(array)
   new = []
   count = 0
   while count < array.
