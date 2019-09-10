@@ -9,8 +9,8 @@ def map(array)
 end
 
 def reduce(array, start = nil)
-  count = 0
-  while count < array.length
-    new.push(yield(array[count]))
-  end
+  if start
+    num1 = start
+    count = 0
+    
 end
