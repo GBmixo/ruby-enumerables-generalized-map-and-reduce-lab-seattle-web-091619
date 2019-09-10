@@ -1,6 +1,5 @@
 def map
   new = []
-  yield(array)
 
 end
 
