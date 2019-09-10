@@ -4,4 +4,4 @@ def map(array)
   p array2
 end
 
-map
+map()
