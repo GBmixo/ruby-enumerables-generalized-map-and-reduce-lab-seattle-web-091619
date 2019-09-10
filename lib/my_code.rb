@@ -1,7 +1,7 @@
 def map(array)
   new = []
-  i = 0
-  while count < array.
+  count = 0
+  while count < array
     new.push(yield(array[count]))
     count += 1
   end
