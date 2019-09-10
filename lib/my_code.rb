@@ -4,4 +4,6 @@ def map(array)
   p array2
 end
 
-map()
+map([1, 2, 3, -9]) {
+  
+}
