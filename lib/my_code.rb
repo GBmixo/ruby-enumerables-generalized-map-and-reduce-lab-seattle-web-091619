@@ -1,6 +1,7 @@
 def map(array)
-  array2 = array.map{|n| n * -1}
-  p array2
+  yield
+  # = array.map{|n| n * -1}
+  p array
 end
 
 map([1, 2, 3, -9]) {
