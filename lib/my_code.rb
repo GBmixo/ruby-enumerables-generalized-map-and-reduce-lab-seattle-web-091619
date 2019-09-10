@@ -1,4 +1,5 @@
-def map(array)
+def map
+  new = []
   yield(array)
   # = array.map{|n| n * -1}
   p array
