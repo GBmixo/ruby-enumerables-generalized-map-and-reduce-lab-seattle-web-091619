@@ -1,7 +1,11 @@
 def map
   new = []
-  
-
+  count = 0
+  while count < array.
+    new.push(yield(array[count]))
+    count += 1
+  end
+  p new
 end
 
 map([1, 2, 3, -9]) {
