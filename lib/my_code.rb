@@ -1,6 +1,6 @@
 def map(array)
   new = []
-  count = 0
+  i = 0
   while count < array.
     new.push(yield(array[count]))
     count += 1
