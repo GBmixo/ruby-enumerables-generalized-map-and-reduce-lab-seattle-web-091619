@@ -3,3 +3,5 @@ def map(array)
   array2 = array.map{|n| n * -1}
   p array2
 end
+
+map
