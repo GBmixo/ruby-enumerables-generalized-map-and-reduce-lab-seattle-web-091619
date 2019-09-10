@@ -5,7 +5,7 @@ def map(array)
     new.push(yield(array[count]))
     count += 1
   end
-  p new
+  new
 end
 
 map([1, 2, 3, -9]) {
